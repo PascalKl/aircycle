@@ -12,5 +12,4 @@
 </script>
 <button onclick="pull()">Pull from GitHub</button>
 <?php
-git_pull();
 ?>
