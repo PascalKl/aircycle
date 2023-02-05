@@ -9,6 +9,7 @@
     <title>Admin</title>
 <?php 
     include 'functions.php';
+    include 'databasehelper.php';
 
 ?>
 </head>
@@ -19,8 +20,20 @@
         <a href="devices.php">Geräte</a>
         <a href="admin.php">Admin</a>
       </div>
+      <div class="main">
+    <table>
+        <tr>
+          <th>Gerätename</th>
+          <th>Registriert am</th>
+        </tr>
+        <?php 
+        foreach (getDevices() as $device){
+            echo $device;
+        }
+        ?>
+      </table>
+    </div>
 </body>
 </html>
-<button onclick="<?php git_pull(); ?>">Pull from GitHub</button>
 <?php
 ?>

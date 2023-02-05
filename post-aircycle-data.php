@@ -2,15 +2,9 @@
 
 $servername = "localhost";
 
-// REPLACE with your Database name
 $dbname = "aircycle_data";
-// REPLACE with Database user
 $username = "module_poster";
-// REPLACE with Database user password
 $password = "1czSR8VkZMUYzMy9kFdc";
-
-// Keep this API Key value to be compatible with the ESP32 code provided in the project page. 
-// If you change this value, the ESP32 sketch needs to match
 $api_key_value = "tPmAT5Ab3j7F9";
 
 $api_key= $name = $location = $airquality = "";
@@ -24,9 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         
        
-        // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
-        // Check connection
         if ($conn->connect_error) {
             die("Connection failed: " . $conn->connect_error);
         } 
