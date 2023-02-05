@@ -4,7 +4,7 @@ function git_pull(){
         shell_exec("git pull");
         return "Pulled from GitHub";
     }
-    catch(Excpetion $e){
+    catch(Excepetion $e){
         $error = "Error: " + $e;
         return $error;
     }
