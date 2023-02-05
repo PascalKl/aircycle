@@ -7,5 +7,4 @@
 ?>
 <button onclick="<?php git_pull(); ?>">Pull from GitHub</button>
 <?php
-echo "Test";
 ?>
