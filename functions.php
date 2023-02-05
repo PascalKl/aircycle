@@ -1,8 +1,7 @@
 <?php 
 function git_pull(){
     try{
-	echo shell_exec("/var/www/html/aircycle/pull.sh 2>&1; echo $?");
-	//echo "Success! ";	
+	return shell_exec("/var/www/html/aircycle/pull.sh 2>&1; echo $?");
 }
 catch(Excepetion $e){
         $error = "Error: " + $e;
