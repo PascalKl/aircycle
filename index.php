@@ -12,10 +12,10 @@
 </head>
 <body>
     <div class="sidenav">
-        <a href="start">Start</a>
-        <a href="map">Karte</a>
-        <a href="devices">Geräte</a>
-        <a href="admin">Admin</a>
+        <a href="index.php">Start</a>
+        <a href="map.php">Karte</a>
+        <a href="devices.php">Geräte</a>
+        <a href="admin.php">Admin</a>
       </div>
 </body>
 </html>
