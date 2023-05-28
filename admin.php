@@ -14,10 +14,10 @@
 </head>
 <body>
     <div class="sidenav">
-        <a href="index.php">Start</a>
-        <a href="map.php">Karte</a>
-        <a href="devices.php">Geräte</a>
-        <a href="admin.php">Admin</a>
+    <a href="index.php">Home</a>
+        <a href="map.php">Map</a>
+        <a href="devices.php">Devices</a>
+        <a href="getstarted.php">Get Started</a>
       </div>
 </body>
 </html>

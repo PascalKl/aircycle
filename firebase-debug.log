@@ -1,0 +1,21 @@
+[debug] [2023-05-28T09:39:21.141Z] ----------------------------------------------------------------------
+[debug] [2023-05-28T09:39:21.143Z] Command:       D:\Apps\nodejs\node.exe C:\Users\pasca\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-28T09:39:21.143Z] CLI Version:   12.2.1
+[debug] [2023-05-28T09:39:21.144Z] Platform:      win32
+[debug] [2023-05-28T09:39:21.144Z] Node Version:  v18.7.0
+[debug] [2023-05-28T09:39:21.145Z] Time:          Sun May 28 2023 11:39:21 GMT+0200 (Mitteleuropäische Sommerzeit)
+[debug] [2023-05-28T09:39:21.145Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-28T09:39:21.154Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-28T09:39:21.155Z] > authorizing via signed-in user (pascal.klamroth@googlemail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\pasca\AppData\Roaming\Code\User\globalStorage\humy2833.ftp-simple\remote-workspace-temp\8a7982dc888c903d321b98996ea122e6\var\www\html\aircycle
+
